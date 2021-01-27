@@ -141,10 +141,11 @@ h1 {
 }
 .about .right h1 {
   /* margin: 0 5%; */
+  margin-bottom:0.5rem;
   
 }
 .about .right h4 {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   color: gray;
 }
 .about table {
@@ -163,7 +164,7 @@ td {
 .social {
   margin-top: 1rem;
   padding-left: 2.5rem;
-  gap: 0.3rem;
+  gap: 0.2rem;
 }
 
 .social a img {
