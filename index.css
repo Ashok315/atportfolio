@@ -21,7 +21,18 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-
+#loading {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--light);
+  z-index: 99999;
+}
+#loading img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 header {
   /* border: #3dcfd3 solid 2px; */
   /* width: 100%; */
@@ -33,7 +44,7 @@ header {
 }
 
 header .container {
-  /* border: #3dcfd3 solid 1px; */
+  border-bottom: #3dcfd3 solid 1px;
   width: 100%;
   padding: 0.5rem 0;
 }
@@ -53,12 +64,14 @@ header nav .mid a {
   border-radius: 6px;
   font-size: 0.9rem;
 }
-
-header nav .mid a:hover {
+.navlist .li.active {
+  background-color: rgba(209, 68, 209, 0.938);
+}
+/* header nav .mid a:hover {
   background-color: rgba(209, 68, 209, 0.938);
   color: var(--pure);
   transition: all 0.3s ease;
-}
+} */
 
 header nav .logo {
   /* border: #3dcfd3 solid 1px; */
@@ -73,7 +86,7 @@ header nav .logo {
 .hero .h-left img {
   width: 270px;
   height: 330px;
-  border-radius: 3.5rem;
+  border-radius: 3rem;
 }
 
 .hero .tx-right h1 {
@@ -107,8 +120,11 @@ span {
   right: 3rem;
   visibility: hidden;
   opacity: none;
+  cursor: pointer;
+  outline: none;
 }
-#hamburger img:hover {
+
+#hamburger img:active {
   background-color: rgba(209, 68, 209, 0.938);
 }
 .shape {
@@ -366,7 +382,8 @@ td {
 .msg-frm .btn3 button {
   padding: 0.2rem 0.7rem 0.2rem 0.7rem;
   border-radius: 0.7rem;
-  border: #161616 solid 1.5px;
+  border: #161616 solid 1px;
+  outline: none;
 }
 .msg-frm .btn3 button:hover {
   color: var(--dark);
