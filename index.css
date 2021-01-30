@@ -436,7 +436,7 @@ td {
 }
 .shape2 {
   transform: scaleY(-1);
-  height: 120px;
+  height: 160px;
    border: yellow solid 2px;
 }
 
