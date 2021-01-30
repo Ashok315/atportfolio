@@ -437,6 +437,7 @@ td {
 .shape2 {
   transform: scaleY(-1);
   height: 160px;
+   border: yellow solid 2px;
 }
 
 .container7 {
@@ -445,7 +446,7 @@ td {
   margin-top: -0.2rem;
 }
 .shape-info {
-  /* border: yellow solid 2px; */
+/*    border: yellow solid 2px;  */
   margin: 0 25%;
   justify-content: space-between;
   align-items: center;
