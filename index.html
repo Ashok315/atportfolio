@@ -37,7 +37,8 @@
             </div>
 
             <div class="right" id="connect">
-                 <button class="btn btn-primary">Connect</button>
+                
+              <a href="#contactus">  <button class="btn btn-primary" >connect</button></a>
             </div>
 
         </nav>  
@@ -142,38 +143,42 @@
 
         <section class="skills">
           <h1>____________ <span>Skills</span> & Ability ____________</h1>
-          <div class="container4 flex">
-            <!-- <div class="list-image"><img src="./images/skills3.jpg"></div> -->
-          
-             <div class="left flex">
-                <div class="list">
-                  <ul >
-                    <li>HTML</li>
-                    <li>CSS</li> 
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                  </ul>
-                </div>
-               
-                <div class="list">   
-                  <ul>
-                    <li>Java</li>
-                    <li>Bootstrap</li>
-                    <li>Spring</li>
-                    <li>React js</li>
-                  </ul>
-                </div> 
-             </div>
-              
-             <div class="right">
-                <h3>Education</h3>
-                <dl>
-                  <dt>Bachelor Of Engineering</dt>
-                  <dd><dfn>(Computer)</dfn></dd>
-                </dl>
-             </div>  
 
+          <div id="bg">
+            <div class="container4 flex">
+              <!-- <div class="list-image"><img src="./images/skills3.jpg"></div> -->
+            
+               <div class="left flex">
+                  <div class="list">
+                    <ul >
+                      <li>HTML</li>
+                      <li>CSS</li> 
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                    </ul>
+                  </div>
+                 
+                  <div class="list">   
+                    <ul>
+                      <li>Java</li>
+                      <li>Bootstrap</li>
+                      <li>Spring</li>
+                      <li>React js</li>
+                    </ul>
+                  </div> 
+               </div>
+                
+               <div class="right">
+                  <h3>Education</h3>
+                  <dl>
+                    <dt>Bachelor Of Engineering</dt>
+                    <dd><dfn>(Computer)</dfn></dd>
+                  </dl>
+               </div>  
+  
+            </div>
           </div>
+          
         </section>
 
         <section class="projects" id="works">
@@ -225,26 +230,26 @@
            </div>
             <hr>
 
-          <div class="msg-frm">   
-            <form> 
+          <div class="msg-frm flex">   
+            <form action="https://formspree.io/f/mqkgnrnd" method="POST" id="msg-drop"> 
               <div class="left flex">
                  <div><label for="name"> Name:</label><br>
-                     <input type="text" id="name" placeholder="name"/>
+                     <input type="text" id="name" placeholder="name" name="name" required/>
                  </div>
 
                  <div> <label for="email"> Email:</label><br>
-                     <input type="email" id="email" placeholder="email"/>
+                     <input type="email" id="email" placeholder="email" name="email" required/>
                  </div>
               </div> 
 
               <div class="right flex">
                    <div> <label for="mobile"> Mobile:</label><br>
-                       <input type="text" id="mobile" placeholder="mobile"/>
+                       <input type="text" id="mobile" placeholder="mobile" name="mobile" required/>
                    </div>
 
                    <div>
                        <label for="message"> Message:</label><br>
-                       <textarea  rows="3" type="text" id="message" placeholder="message"></textarea>
+                       <textarea  rows="3" cols="" type="text" id="message" placeholder="message" name="message" required></textarea>
                    </div>
               </div> 
 
@@ -253,6 +258,7 @@
               </div>
 
             </form>
+            <div id="response"></div>
           </div>
         </div> 
         </section>

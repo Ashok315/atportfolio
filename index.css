@@ -137,12 +137,10 @@ span {
 }
 
 .container2 {
-  margin: 5rem 28%;
+  margin: 4rem 28%;
   gap: 2.5rem;
   justify-content: space-around;
-  /* border: hotpink solid 1.5px; */
   border-radius: 1rem;
-  /* padding: 2rem; */
 }
 .about img {
   width: 185px;
@@ -195,7 +193,7 @@ td {
   text-align: center;
   background-color: var(--light);
   /* border: red solid 1px; */
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   padding: 2rem 0;
 }
 .container3 h1 {
@@ -238,17 +236,24 @@ td {
   /* border: black solid 1px; */
   /* text-align: center; */
 }
+#bg {
+  background-image: url("./images/ski5.jpg");
+  background-size: cover;
+  opacity: 0.7;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+}
 .skills h1 {
   text-align: center;
 }
 .container4 {
-  margin: 2.5rem 18%;
+  /* margin: 2rem 18%; */
+  margin: 2rem 12%;
   /* border: yellow solid 1px; */
   padding: 0.5rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   /* gap: 3rem; */
-  color: midnightblue;
   font-size: 1.1rem;
 }
 .container4 .left {
@@ -258,19 +263,23 @@ td {
   padding: 1.3rem 2.5rem;
   line-height: 1.8rem;
   letter-spacing: 0.07rem;
+  background-color: rgba(255, 192, 203, 0.76);
+  color: midnightblue;
 }
 .container4 .left .list ul {
   list-style-type: square;
 }
 .container4 .left:hover {
-  background-color: #e6e6e6d0;
-  transition: all 0.3 ease;
+  background-color: #e6e6e6bd;
+  transition: all 0.4 ease;
 }
 .container4 .right {
   border: midnightblue solid 1px;
   border-radius: 1.5rem;
   padding: 1.3rem 2rem;
   line-height: 1.4rem;
+  background-color: rgba(255, 192, 203, 0.76);
+  color: midnightblue;
 }
 .container4 .right h3 {
   margin-bottom: 0.5rem;
@@ -279,8 +288,8 @@ td {
   text-align: center;
 }
 .container4 .right:hover {
-  background-color: #e6e6e6d0;
-  transition: all 0.3 ease;
+  background-color: #e6e6e6bd;
+  transition: all 0.4 ease;
 }
 
 .container5 {
@@ -358,6 +367,8 @@ td {
   border-radius: 2rem;
   margin: 1rem 23%;
   padding: 1.5rem 0;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 .msg-frm .left,
 .right {
@@ -369,10 +380,12 @@ td {
   text-align: left;
 }
 .msg-frm input {
-  height: 1.3rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
 }
 .msg-frm textarea {
-  resize: none;
+  resize: vertical;
+  padding-left: 0.5rem;
 }
 .msg-frm .btn3 {
   margin: 0 30%;
@@ -389,7 +402,38 @@ td {
   color: var(--dark);
   cursor: pointer;
 }
-
+#response {
+  /* width: 80%; */
+  height: 2rem;
+  text-align: center;
+  margin: 0 20%;
+}
+#response.success {
+  color: green;
+  border: pink solid 1px;
+  border-radius: 5px;
+  animation: response 4s ease forwards;
+}
+#response.error {
+  color: red;
+  border: pink solid 1px;
+  border-radius: 0.5rem;
+  animation: response 4s ease forwards;
+}
+@keyframes response {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: all;
+  }
+}
 .shape2 {
   transform: scaleY(-1);
   height: 200px;
@@ -446,6 +490,9 @@ footer .container8 {
   .container2 {
     margin: 8rem 25% 7rem 25%;
   }
+  #response {
+    height: 2.8rem;
+  }
 }
 
 /* 2.low resolution laptops, desktops and tablets landscape */
@@ -496,6 +543,10 @@ footer .container8 {
     flex-direction: column;
     gap: 1.5rem;
     margin: 2rem 37%;
+  }
+  #response {
+    margin: 0 10%;
+    height: 3rem;
   }
 }
 /* 3.portrait tablets,e-readers,kindle */
@@ -549,6 +600,10 @@ footer .container8 {
   }
   .msg-frm {
     margin: 1rem 15%;
+  }
+  #response {
+    margin: 0 15%;
+    height: 3rem;
   }
   .shape-info {
     margin: 0 20%;
@@ -610,6 +665,10 @@ footer .container8 {
   .msg-frm .btn3 {
     margin: 0 10%;
   }
+  #response {
+    margin: 0 0%;
+    height: 4rem;
+  }
   .shape-info {
     margin: 0 10%;
   }
@@ -651,11 +710,15 @@ footer .container8 {
     /* margin-right: 20rem;  */
   }
   .msg-frm {
-    margin: 1rem 10%;
+    margin: 1rem 5%;
   }
 
   .msg-frm .btn3 {
     margin: 0 10%;
+  }
+  #response {
+    margin: 0 5%;
+    height: 4.3rem;
   }
   .shape-info {
     margin: 0 5%;
