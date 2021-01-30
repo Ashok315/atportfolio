@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
 #loading img {
   position: absolute;
   top: 50%;
-  left: 47%;
+  left: 45%;
 }
 header {
   /* border: #3dcfd3 solid 2px; */
@@ -437,7 +437,7 @@ td {
 .shape2 {
   transform: scaleY(-1);
   height: 160px;
-   border: yellow solid 2px;
+/*    border: yellow solid 2px; */
 }
 
 .container7 {
