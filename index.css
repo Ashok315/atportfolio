@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
 #loading img {
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 47%;
 }
 header {
   /* border: #3dcfd3 solid 2px; */
@@ -193,7 +193,7 @@ td {
   text-align: center;
   background-color: var(--light);
   /* border: red solid 1px; */
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   padding: 2rem 0;
 }
 .container3 h1 {
@@ -248,7 +248,7 @@ td {
 }
 .container4 {
   /* margin: 2rem 18%; */
-  margin: 2rem 12%;
+  margin: 4rem 12%;
   /* border: yellow solid 1px; */
   padding: 0.5rem;
   align-items: center;
@@ -294,7 +294,7 @@ td {
 
 .container5 {
   /* border: blue solid 1px; */
-  margin: 3rem 0;
+  margin: 4rem 0;
   text-align: center;
 }
 
