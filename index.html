@@ -1,296 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PorthPolio_1
-    </title>
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PorthPolio_1</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/index1.js"></script>
   </head>
-<body onload="loadFunction()">
+  <body onload="loadFunction()">
     <div id="loading">
-      <img src="./images/loading.gif" alt="">
+      <img src="./images/loading.gif" alt="" />
     </div>
-  <header >
-    <div class="main-container">
-      <div class="container">
-        <nav class="flex item-center justify-between">
-
+    <header>
+      <div class="main-container">
+        <div class="container">
+          <nav class="flex item-center justify-between">
             <div class="left">
               <div class="logo" id="logo1">
-                 <img src="./images/logoAA51.png"/>
-              </div>    
+                <img src="./images/logoAA51.png" />
+              </div>
             </div>
 
             <div class="mid" id="menulist">
-              <div class="navlist " id="navlist_1" >
-                 <a href="./index.html" class="li active">Home</a>
-                 <a href="#abouts" class="li ">About</a>
-                 <a href="#service" class="li ">Service</a>
-                 <a href="#works" class="li "> Works</a>
-                 <a href="#contactus" class="li ">Contactus</a>
+              <div class="navlist" id="navlist_1">
+                <a href="./index.html" class="li active">Home</a>
+                <a href="#abouts" class="li">About</a>
+                <a href="#service" class="li">Service</a>
+                <a href="#works" class="li"> Works</a>
+                <a href="#contactus" class="li">Contactus</a>
               </div>
             </div>
 
             <div class="right" id="connect">
-                
-              <a href="#contactus">  <button class="btn btn-primary" >connect</button></a>
+              <a href="#contactus">
+                <button class="btn btn-primary">connect</button></a
+              >
+            </div>
+          </nav>
+        </div>
+
+        <button id="hamburger" onclick="responsive_menu()">
+          <img src="./images/hamburger2.png" />
+        </button>
+
+        <div class="hero flex item-center">
+          <div class="h-left">
+            <img src="./images/photoAA.png" />
+          </div>
+
+          <div class="tx-right">
+            <h4>Ashok Pateliya</h4>
+            <h1>I'm a Web <span>Designer</span></h1>
+            <p>
+              I love to work in web designing as front-end developer. I make
+              website attractive and responsive design. I always try to make
+              best developing and responsive website.
+            </p>
+
+            <div class="btn-2">
+              <button
+                class="btn btn-secondary"
+                type="submit"
+                onclick="window.open('Ashok-resumeF.pdf')"
+              >
+                DOWNLOAD CV
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shape">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#161616"
+            fill-opacity="1"
+            d="M0,128L80,112C160,96,320,64,480,69.3C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+    <section class="about" id="abouts">
+      <div class="container2 flex item-center">
+        <div>
+          <img src="./images/ashok_pic.jpg" />
+        </div>
+
+        <div class="right p-2">
+          <h1>About <span>Me</span></h1>
+          <h4>Web Developer & Web Designer</h4>
+          <p>
+            I'm Web developer and web designer with have 2 years of exeprience.
+          </p>
+          <div class="about-info">
+            <table>
+              <tr>
+                <th>E-mail :</th>
+                <td>ashokpateliya315@gmail.com</td>
+              </tr>
+              <tr>
+                <th>Mobile :</th>
+                <td>9586964275</td>
+              </tr>
+              <tr>
+                <th>Edu. :</th>
+                <td>B.E(Computer)</td>
+              </tr>
+            </table>
+          </div>
+          <div class="social flex">
+            <a href="https://www.facebook.com/profile.php?id=100006809089178"
+              ><img src="./images/facebook-round-line-color.png"
+            /></a>
+            <a href="https://www.instagram.com/pateliyashok_315/"
+              ><img src="./images/instagram-round-line-color.png"
+            /></a>
+            <a href="https://www.linkedin.com/in/ashok-pateliya-94244315a"
+              ><img src="./images/linkedin-round-line-color.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="service">
+      <div class="container3">
+        <h1>____________ <span>Our</span> Services ____________</h1>
+        <p>
+          We provide responsive and clean website for your business solutions
+        </p>
+
+        <div class="card-wrapper flex item-center">
+          <div class="card p-2">
+            <img src="./images/icons8-monitor-50.png" alt="web design" />
+            <h3>Web Design</h3>
+            <p>
+              We are design websites that good looking, attractive and full
+              responsive.
+            </p>
+          </div>
+
+          <div class="card p-2">
+            <img
+              src="./images/icons8-google-code-50.png"
+              alt="web Development"
+            />
+            <h3>Web Development</h3>
+            <p>
+              We are Develop static websites that responsive, functionality and
+              look great as well.
+            </p>
+          </div>
+
+          <div class="card p-2">
+            <img src="./images/graphic-design.png" alt="Graphic design" />
+            <h3>Graphic Design</h3>
+            <p>
+              We will Make different design consepts like logo, Card etc which
+              is clean and interactive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h1>____________ <span>Skills</span> & Ability ____________</h1>
+
+      <div id="bg">
+        <div class="container4 flex">
+          <!-- <div class="list-image"><img src="./images/skills3.jpg"></div> -->
+
+          <div class="left flex">
+            <div class="list">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+              </ul>
             </div>
 
-        </nav>  
+            <div class="list">
+              <ul>
+                <li>Java</li>
+                <li>Bootstrap</li>
+                <li>Spring</li>
+                <li>React js</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="right">
+            <h3>Education</h3>
+            <dl>
+              <dt>Bachelor Of Engineering</dt>
+              <dd><dfn>(Computer)</dfn></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="works">
+      <div class="container5">
+        <h1>____________ <span>Works </span> ____________</h1>
+        <div class="project-ss flex">
+          <div class="image_group">
+            <img src="./images/carrental.png" />
+            <div class="image_overlay">
+              <h3>Static website</h3>
+              <p>here online car rental system of web development</p>
+            </div>
+          </div>
+
+          <div class="image_group">
+            <img src="./images/develop1.png" />
+            <div class="image_overlay">
+              <h3>Static Web-2</h3>
+              <p>here my other static website that responsive</p>
+            </div>
+          </div>
+
+          <div class="image_group">
+            <img src="./images/porthfolio.png" />
+            <div class="image_overlay">
+              <h3>Porthfolio</h3>
+              <p>
+                here my own websites that informative, attractive and responsive
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="message" id="contactus">
+      <div class="container6">
+        <h4>get in touch with me</h4>
+        <h2><span>Contact</span></h2>
+        <hr />
+        <div class="contact flex item-center">
+          <div>
+            <img id="phone" src="./images/cell-phone.png" />
+            <h5>+91-9586964275</h5>
+          </div>
+
+          <div>
+            <img id="mail" src="./images/envelope-line.png" />
+            <h5>ashokpateliya315@gmial.com</h5>
+          </div>
+        </div>
+        <hr />
+
+        <div class="msg-frm flex">
+          <form
+            action="https://formspree.io/f/mqkgnrnd"
+            method="POST"
+            id="msg-drop"
+          >
+            <div class="left flex">
+              <div>
+                <label for="name"> Name:</label><br />
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="name"
+                  name="name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email"> Email:</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="email"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="right flex">
+              <div>
+                <label for="mobile"> Mobile:</label><br />
+                <input
+                  type="text"
+                  id="mobile"
+                  placeholder="mobile"
+                  name="mobile"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="message"> Message:</label><br />
+                <textarea
+                  rows="3"
+                  cols=""
+                  type="text"
+                  id="message"
+                  placeholder="message"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="btn3">
+              <button class="btn-primary" type="submit" value="Submit">
+                Send Message
+              </button>
+            </div>
+          </form>
+          <div id="response"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="shape2">
+        <?xml version="1.0" standalone="no"?>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#161616"
+            fill-opacity="1"
+            d="M0,128L80,112C160,96,320,64,480,69.3C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+          ></path>
+        </svg>
       </div>
 
-      <button id="hamburger" onclick='responsive_menu()'>
-         <img src="./images/hamburger2.png">
-      </button>
+      <div class="container7">
+        <div class="shape-info flex">
+          <div class="left logo">
+            <img src="./images/logoAA51.png" />
+          </div>
 
-      <div class="hero flex item-center">
-
-             <div class="h-left">
-                 <img src="./images/photoAA.png"/>     
-             </div>
-
-             <div class="tx-right ">
-               <h4>Ashok Pateliya</h4>
-               <h1>I'm a Web <span>Developer</span></h1>
-               <p>I love to work in web designing as front-end developer. I have many websites design attractive and responsive. I always try to make best developing and responsive website.</p>
-               
-               <div class="btn-2">  
-                  <button class="btn btn-secondary" type="submit" onclick="window.open('Ashok-resumeF.pdf')" >DOWNLOAD CV</button>
-
-               </div>
-             </div>
-
+          <div class="right social flex">
+            <a href="https://www.facebook.com/profile.php?id=100006809089178"
+              ><img src="./images/facebook-round-line-color.png"
+            /></a>
+            <a href="https://www.instagram.com/pateliyashok_315/"
+              ><img src="./images/instagram-round-line-color.png"
+            /></a>
+            <a href="https://www.instagram.com/pateliyashok_315/"
+              ><img src="./images/linkedin-round-line-color.png"
+            /></a>
+          </div>
+        </div>
       </div>
- 
-    </div>
-    <div class="shape">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#161616" fill-opacity="1" d="M0,128L80,112C160,96,320,64,480,69.3C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-    </div>
-  </header> 
- 
-     <section class="about" id="abouts">
-           <div class="container2 flex item-center">
-
-            <div >
-               <img src="./images/ashok_pic.jpg"/>
-            </div>
-
-            <div class="right p-2" >
-              <h1>About <span>Me</span></h1>
-              <h4>Web Developer & Web Designer</h4>
-              <p>I'm Web developer and web designer with have 2 years of exeprience.</p>
-               <div class="about-info">
-                 <table >
-                  <tr>
-                    <th>E-mail :</th>
-                    <td>ashokpateliya315@gmail.com</td>
-                   </tr>
-                   <tr>
-                    <th>Mobile :</th>
-                    <td>9586964275</td>
-                   </tr>
-                   <tr>
-                    <th>Edu. :</th>
-                    <td>B.E(Computer)</td>
-                   </tr>
-                  
-                 </table>
-      
-               </div>
-              <div class="social flex">      
-                <a href="https://www.facebook.com/profile.php?id=100006809089178"><img src="./images/facebook-round-line-color.png"></a>
-                 <a href="https://www.instagram.com/pateliyashok_315/"><img src="./images/instagram-round-line-color.png"></a>
-                 <a href="https://www.linkedin.com/in/ashok-pateliya-94244315a"><img src="./images/linkedin-round-line-color.png"></a> 
-                 <a href="#"><img src="./images/whatsapp-round-line-color.png"></a> 
-             </div>       
-            </div>
-
-          </div>
-     </section>
-     <section class="services" id="service">
-          <div class="container3 ">
-            <h1>____________ <span>Our</span> Services ____________</h1>
-            <p>We provide responsive and clean website for your business solutions</p>
-            
-            <div class="card-wrapper flex item-center ">
-             
-              <div class="card  p-2">
-                 <img src="./images/icons8-monitor-50.png" alt="web design">
-                 <h3>Web Design</h3>
-                 <p>We are design websites that good looking, attractive and full responsive. </p>
-              </div>
-
-              <div class="card p-2">
-                <img src="./images/icons8-google-code-50.png" alt="web Development">
-                <h3>Web Development</h3>
-                <p>We are Develop static websites that responsive, functionality and look great as well.</p>
-             </div>
-
-             <div class="card p-2">
-              <img src="./images/graphic-design.png" alt="Graphic design">
-              <h3>Graphic Design</h3>
-              <p>We will Make different design consepts like logo, Card etc which is clean and interactive.</p>
-             </div>
-
-            </div>
-          </div>
-        </section>
-
-        <section class="skills">
-          <h1>____________ <span>Skills</span> & Ability ____________</h1>
-
-          <div id="bg">
-            <div class="container4 flex">
-              <!-- <div class="list-image"><img src="./images/skills3.jpg"></div> -->
-            
-               <div class="left flex">
-                  <div class="list">
-                    <ul >
-                      <li>HTML</li>
-                      <li>CSS</li> 
-                      <li>JavaScript</li>
-                      <li>jQuery</li>
-                    </ul>
-                  </div>
-                 
-                  <div class="list">   
-                    <ul>
-                      <li>Java</li>
-                      <li>Bootstrap</li>
-                      <li>Spring</li>
-                      <li>React js</li>
-                    </ul>
-                  </div> 
-               </div>
-                
-               <div class="right">
-                  <h3>Education</h3>
-                  <dl>
-                    <dt>Bachelor Of Engineering</dt>
-                    <dd><dfn>(Computer)</dfn></dd>
-                  </dl>
-               </div>  
-  
-            </div>
-          </div>
-          
-        </section>
-
-        <section class="projects" id="works">
-          <div class="container5">
-            <h1>____________ <span>Works </span> ____________</h1>
-            <div class="project-ss flex "> 
-
-              <div class="image_group"><img src="./images/carrental.png">
-                <div class="image_overlay">
-                   <h3>Static website</h3>
-                   <p>here online car rental system of web development</p>
-                </div>
-              </div>
-
-              <div class="image_group "><img src="./images/develop1.png">
-                <div class="image_overlay">
-                  <h3>Static Web-2</h3>
-                  <p>here my other static website that responsive</p>
-                </div>
-              </div>
-
-              <div class="image_group"><img src="./images/porthfolio.png">
-                <div class="image_overlay">
-                  <h3>Porthfolio</h3>
-                  <p>here my own websites that informative, attractive and responsive</p>
-               </div>
-              </div> 
-
-            </div>
-             
-          </div>
-        </section>  
-        
-        <section class="message" id="contactus">
-
-        <div class="container6">
-           <h4>get in touch with me</h4>
-           <h2><span>Contact</span></h2> <hr>
-           <div class="contact flex item-center">
-              <div>
-                 <img  id="phone" src="./images/cell-phone.png">
-                 <h5>+91-9586964275</h5>
-              </div>
-
-              <div>
-                 <img id="mail" src="./images/envelope-line.png">
-                 <h5>ashokpateliya315@gmial.com</h5>      
-              </div>
-           </div>
-            <hr>
-
-          <div class="msg-frm flex">   
-            <form action="https://formspree.io/f/mqkgnrnd" method="POST" id="msg-drop"> 
-              <div class="left flex">
-                 <div><label for="name"> Name:</label><br>
-                     <input type="text" id="name" placeholder="name" name="name" required/>
-                 </div>
-
-                 <div> <label for="email"> Email:</label><br>
-                     <input type="email" id="email" placeholder="email" name="email" required/>
-                 </div>
-              </div> 
-
-              <div class="right flex">
-                   <div> <label for="mobile"> Mobile:</label><br>
-                       <input type="text" id="mobile" placeholder="mobile" name="mobile" required/>
-                   </div>
-
-                   <div>
-                       <label for="message"> Message:</label><br>
-                       <textarea  rows="3" cols="" type="text" id="message" placeholder="message" name="message" required></textarea>
-                   </div>
-              </div> 
-
-              <div class="btn3">
-                <button class="btn-primary" type="submit" value="Submit">Send Message</button>
-              </div>
-
-            </form>
-            <div id="response"></div>
-          </div>
-        </div> 
-        </section>
-
-        <section>
-                <div class="shape2">
-                  <?xml version="1.0" standalone="no"?>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#161616" fill-opacity="1" d="M0,128L80,112C160,96,320,64,480,69.3C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-                </div>
-              
-                <div class="container7">
-                  <div class="shape-info flex">
-
-                      <div class="left logo">
-                        <img src="./images/logoAA51.png"/>
-                      </div>  
-
-                      <div class="right social flex">      
-                        <a href="https://www.facebook.com/profile.php?id=100006809089178"><img src="./images/facebook-round-line-color.png"></a>
-                        <a href="https://www.instagram.com/pateliyashok_315/"><img src="./images/instagram-round-line-color.png"></a>
-                        <a href="https://www.instagram.com/pateliyashok_315/"><img src="./images/linkedin-round-line-color.png"></a> 
-                        <a href="#"><img src="./images/whatsapp-round-line-color.png"></a> 
-                      </div>      
-
-                  </div>  
-                </div>  
-        </section>
-        <footer>
-          <div class="container8">
-            <p>Copyright © 2021 by Ashok Pateliya. All rights reserved.</p>
-          </div>
-        </footer>
-
-</body>
+    </section>
+    <footer>
+      <div class="container8">
+        <p>Copyright © 2021 by Ashok Pateliya. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
