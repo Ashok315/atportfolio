@@ -31,12 +31,8 @@ body::-webkit-scrollbar {
 #loading img {
   position: absolute;
   top: 50%;
-<<<<<<< HEAD
   left: 50%;
   background: transparent;
-=======
-  left: 45%;
->>>>>>> bd2b8b7365fd7ed8dbfaec96699be51efcf16687
 }
 header {
   /* border: #3dcfd3 solid 2px; */
@@ -143,11 +139,7 @@ span {
 }
 
 .container2 {
-<<<<<<< HEAD
   margin: 3rem 28%;
-=======
-  margin: 3.5rem 28%;
->>>>>>> bd2b8b7365fd7ed8dbfaec96699be51efcf16687
   gap: 2.5rem;
   justify-content: space-around;
   border-radius: 1rem;
@@ -203,11 +195,7 @@ td {
   text-align: center;
   background-color: var(--light);
   /* border: red solid 1px; */
-<<<<<<< HEAD
   margin-bottom: 3rem;
-=======
-  margin-bottom: 5rem;
->>>>>>> bd2b8b7365fd7ed8dbfaec96699be51efcf16687
   padding: 2rem 0;
 }
 .container3 h1 {
@@ -262,11 +250,7 @@ td {
 }
 .container4 {
   /* margin: 2rem 18%; */
-<<<<<<< HEAD
   margin: 1.7rem 12%;
-=======
-  margin: 4rem 12%;
->>>>>>> bd2b8b7365fd7ed8dbfaec96699be51efcf16687
   /* border: yellow solid 1px; */
   padding: 0.5rem;
   align-items: center;
@@ -312,11 +296,7 @@ td {
 
 .container5 {
   /* border: blue solid 1px; */
-<<<<<<< HEAD
   margin: 2.8rem 0;
-=======
-  margin: 5rem 0;
->>>>>>> bd2b8b7365fd7ed8dbfaec96699be51efcf16687
   text-align: center;
 }
 
@@ -460,10 +440,6 @@ td {
 .shape2 {
   transform: scaleY(-1);
   height: 180px;
-<<<<<<< HEAD
-=======
-
->>>>>>> bd2b8b7365fd7ed8dbfaec96699be51efcf16687
 }
 
 .container7 {
@@ -472,7 +448,7 @@ td {
   margin-top: -0.2rem;
 }
 .shape-info {
-/*    border: yellow solid 2px;  */
+  /* border: yellow solid 2px; */
   margin: 0 25%;
   justify-content: space-between;
   align-items: center;
