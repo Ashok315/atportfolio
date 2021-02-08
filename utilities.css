@@ -26,11 +26,12 @@
 .btn-primary {
   background-color: var(--primary);
   color: var(--dark);
+  border: burlywood solid 1.7px;
 }
 .btn-primary:hover {
   transition: all 0.3 ease;
   background-color: transparent;
-  border-color: var(--primary);
+  border: var(--primary) solid 2px;
   color: var(--primary);
 }
 .btn-secondary {
@@ -49,4 +50,18 @@
 .logo img {
   width: 82.7px;
   height: 70.9px;
+}
+.heading {
+  border-top: burlywood solid 2px;
+  border-bottom: burlywood solid 2px;
+  padding: 0.3rem 0 0.3rem 0;
+  font-weight: normal;
+  color: #272727d3;
+}
+.heading2 {
+  border-top: orange solid 1.5px;
+  border-bottom: orange solid 1.5px;
+  padding: 0.3rem 0 0.3rem 0;
+  font-weight: normal;
+  color: #272727d3;
 }
