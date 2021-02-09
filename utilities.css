@@ -41,7 +41,7 @@
 .btn-secondary:hover {
   transition: all 0.3 ease;
   background-color: var(--primary);
-  border-color: var(--primary);
+  border: burlywood solid 1.7px;
   color: var(--dark);
 }
 .sub-container {
@@ -52,16 +52,9 @@
   height: 70.9px;
 }
 .heading {
-  border-top: burlywood solid 2px;
-  border-bottom: burlywood solid 2px;
   padding: 0.3rem 0 0.3rem 0;
   font-weight: normal;
   color: #272727d3;
-}
-.heading2 {
-  border-top: orange solid 1.5px;
-  border-bottom: orange solid 1.5px;
-  padding: 0.3rem 0 0.3rem 0;
-  font-weight: normal;
-  color: #272727d3;
+  border-top: rgba(163, 109, 8, 0.885) solid 1.5px;
+  border-bottom: rgba(163, 109, 8, 0.885) solid 1.5px;
 }

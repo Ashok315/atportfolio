@@ -8,19 +8,16 @@ function responsive_menu(){
     var logo=document.getElementById('logo1');
  var header=document.querySelector('header');
  header.classList.toggle('h-height');
-
-
-
+ 
     if(menu.style.display == "block"){
       menu.style.display = "none";
-      logo.style.display="block";
-      // header.className="h-height";
+      logo.style.display= "block";
+     
     }
     else{
-      menu.style.display="block";
-      logo.style.display="none";
-      // header.className-="h-height";
-
+      menu.style.display= "block";
+      logo.style.display= "none";
+      
     }
  }
   $(document).on("click","a.li",function(){
