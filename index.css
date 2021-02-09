@@ -49,9 +49,9 @@ header .container {
   padding: 0.15rem 0;
   /* background-image: linear-gradient(var(--dark), darkslategray, var(--dark)); */
   background-image: linear-gradient(
-    var(--dark) 10%,
+    var(--dark),
     rgba(8, 30, 65, 0.644),
-    var(--dark) 90%
+    var(--dark)
   );
 }
 
