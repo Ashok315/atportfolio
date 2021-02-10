@@ -49,9 +49,9 @@ header .container {
   padding: 0.15rem 0;
   /* background-image: linear-gradient(var(--dark), darkslategray, var(--dark)); */
   background-image: linear-gradient(
-    var(--dark) 10%,
+    var(--dark),
     rgba(8, 30, 65, 0.644),
-    var(--dark) 90%
+    var(--dark)
   );
 }
 
@@ -85,6 +85,9 @@ header nav .mid a:hover {
   width: 270px;
   height: 330px;
   border-radius: 3rem;
+  filter: blur(0.3px);
+  filter: invert(0.05);
+  filter: opacity(0.9);
 }
 
 .hero .tx-right h1 {
@@ -224,7 +227,7 @@ td {
 }
 .card-wrapper .card {
   background-color: var(--light);
-  color: rgb(153, 10, 81);
+  color: rgba(136, 7, 72, 0.945);
   position: relative;
   height: 11rem;
   padding-top: 2.5rem;
@@ -250,7 +253,7 @@ td {
   border-radius: 0.4rem;
 }
 .card-wrapper .card h3 {
-  color: deeppink;
+  color: rgba(201, 11, 112, 0.986);
   border-top: #3dced39a solid 2px;
   border-bottom: #3dced39a solid 2px;
   font-weight: normal;
