@@ -228,7 +228,7 @@ td {
 }
 .card-wrapper .card {
   background-color: var(--light);
-  color: rgba(136, 7, 72, 0.945);
+  color: midnightblue;
   position: relative;
   height: 11rem;
   padding-top: 2.5rem;
