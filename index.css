@@ -88,7 +88,11 @@ header nav .mid a:hover {
   filter: blur(0.3px);
   filter: invert(0.05);
   filter: opacity(0.9);
+<<<<<<< HEAD
   filter: brightness(95%);
+=======
+  filter:brightness(95%);
+>>>>>>> e4422074ee93dd78b0136a7bdc8b101dff28761c
 }
 
 .hero .tx-right h1 {
