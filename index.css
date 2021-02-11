@@ -88,6 +88,11 @@ header nav .mid a:hover {
   filter: blur(0.3px);
   filter: invert(0.05);
   filter: opacity(0.9);
+<<<<<<< HEAD
+  filter: brightness(95%);
+=======
+  filter:brightness(95%);
+>>>>>>> e4422074ee93dd78b0136a7bdc8b101dff28761c
 }
 
 .hero .tx-right h1 {
@@ -227,7 +232,7 @@ td {
 }
 .card-wrapper .card {
   background-color: var(--light);
-  color: rgba(136, 7, 72, 0.945);
+  color: midnightblue;
   position: relative;
   height: 11rem;
   padding-top: 2.5rem;
@@ -321,6 +326,9 @@ td {
   margin-top: 3rem;
   line-height: 2.5;
   padding: 2.5rem 0 3.5rem 0;
+  background-image: url(./images/pc2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 .hireme h1 {
   color: var(--light);
