@@ -96,6 +96,7 @@ header nav .mid a:hover {
   margin-bottom: 0.5rem;
   line-height: 1.5;
   letter-spacing: 1.5px;
+  font-size: 1.8rem;
 }
 
 .hero .tx-right p {
@@ -128,8 +129,9 @@ span {
   position: absolute;
   top: 2rem;
   right: 3rem;
-  visibility: hidden;
-  opacity: none;
+  /* visibility: hidden;
+  opacity: none; */
+  display: none;
   cursor: pointer;
   outline: none;
 }
@@ -573,15 +575,24 @@ footer .container8 {
   header .right {
     display: none;
   }
+  /* header #connect {
+    display: none;
+  } */
 
   #hamburger {
-    visibility: visible;
-    opacity: 1;
+    /* visibility: visible;
+    opacity: 1; */
+    display: block;
   }
   .mid {
     margin: 4rem 40%;
     line-height: 3rem;
     margin-bottom: 10rem;
+  }
+  header .right {
+    position: absolute;
+    left: 41.5%;
+    bottom: 8rem;
   }
 
   .hero {
@@ -747,8 +758,8 @@ footer .container8 {
     margin: 3rem 10%;
   }
   .projects .project-ss {
-    margin: 2rem 50%;
-    margin-left: 3rem;
+    margin: 2rem 20%;
+    margin-left: 1rem;
   }
   .msg-frm {
     margin: 1rem 5%;
@@ -766,5 +777,9 @@ footer .container8 {
   }
   .shape2 {
     height: 130px;
+  }
+  .container4 .left {
+    gap: 2rem;
+    width: 16rem;
   }
 }

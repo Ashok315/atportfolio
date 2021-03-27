@@ -3,27 +3,33 @@ function loadFunction(){
     preloader.style.display="none";
 }
 
-function responsive_menu(){
+function responsive_menu(){    
     var menu=document.getElementById('menulist');
     var logo=document.getElementById('logo1');
- var header=document.querySelector('header');
- header.classList.toggle('h-height');
+    var connect=document.getElementById('connect');
+
+//  var header=document.querySelector('header');
+//  header.classList.toggle('h-height');
  
     if(menu.style.display == "block"){
       menu.style.display = "none";
       logo.style.display= "block";
+      connect.style.display= "none";
      
     }
     else{
       menu.style.display= "block";
       logo.style.display= "none";
+      connect.style.display= "block";
       
     }
+   
  }
   $(document).on("click","a.li",function(){
     $("a.li").removeClass("active");    
       $(this).addClass("active");   
   })
+  
 
   //form-messege
 
